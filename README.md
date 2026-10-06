@@ -9,7 +9,7 @@ Batangas State University, Alangilan Campus
 | Name | Student Number | Section |
 |---|---|---|
 | Untalan, John Princelee C. | 23-05123 | MEXE-4102 |
-| Camson, Aliyah Mae C. | 26-06309 | MEXE-4102 |
+| Camson, Aliyah Mae C. | 23-06309 | MEXE-4102 |
 
 ## Notebook links
 
