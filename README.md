@@ -27,6 +27,12 @@ Batangas State University, Alangilan Campus
 One short paragraph per chapter, Ch1_2_3 to Ch9. Say what the chapter taught
 you and what surprised you. Not what the library does, but what you understood.
 
+**CAMSON** 
+### Chapters 1–3
+
+I learned that data needs to be properly prepared, understood, and cleaned before it can be used for analysis. I understood that raw data may contain missing values, duplicates, irrelevant information, or unusual values that can affect the results. What surprised me was that even simple checks and summaries can reveal important problems in a dataset, and that handling missing data requires choosing carefully between deletion, imputation, or prediction depending on the situation.
+
+
 ## Errors we found
 
 List any mistake you found in the original notebooks, and the correct version.
