@@ -54,6 +54,7 @@ This chapter taught me that preprocessing becomes easier to manage when the diff
 
 ### Chapter 9
 
+This chapter helped me understand how different preprocessing techniques can be combined to prepare an actual dataset for analysis. I learned that cleaning, transforming, reducing, discretizing, and encoding data are connected steps rather than separate tasks. What surprised me was that preprocessing is not always a one-time process because the data may need to be checked and adjusted again before it is ready for further analysis.
 
 ## Errors we found
 
