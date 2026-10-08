@@ -56,6 +56,36 @@ This chapter taught me that preprocessing becomes easier to manage when the diff
 
 This chapter helped me understand how different preprocessing techniques can be combined to prepare an actual dataset for analysis. I learned that cleaning, transforming, reducing, discretizing, and encoding data are connected steps rather than separate tasks. What surprised me was that preprocessing is not always a one-time process because the data may need to be checked and adjusted again before it is ready for further analysis.
 
+**UNTALAN**
+
+### Chapters 1–3
+
+I learned that preprocessing is the work done before any analysis or model, like cleaning a messy kitchen before cooking. I understood that checking the data first with head(), info(), and describe() tells you what you are dealing with, and that cleaning means handling missing values, duplicates, irrelevant columns, and noisy data. What surprised me was that there is no single right way to fix missing values. Imputation, deletion, and prediction each fit a different situation, and even removing the extreme sales values in the game dataset was a decision I had to think about.
+
+### Chapter 4
+
+I learned that feature engineering means creating new columns from the data you already have so that patterns are easier to see. I understood that binning, interaction features, and encoding each present the data in a different way, and that one-hot and ordinal encoding differ in whether the categories have an order. What surprised me was that dividing sales by temperature in the lemonade example gave a new kind of information, even though no new data was collected.
+
+### Chapter 5
+
+I learned that scaling puts features on a similar range so that a column with bigger numbers does not take over the model. I understood that StandardScaler centers the data around a mean of 0 with a standard deviation of 1, while MinMaxScaler squeezes it into 0 to 1. What surprised me was that scaling is not always needed. It depends on the algorithm and on how different the feature ranges are, so it is not something to apply automatically.
+
+### Chapter 6
+
+I learned that an outlier is a value far from the rest of the data, and that Z-score and IQR are two ways to find one. I understood that finding an outlier is only the first step, and that I still have to choose between capping, transforming, or removing it. What surprised me was that the value 100 had a Z-score of only about 2.62, so the Z-score method with a cutoff of 3 missed it, while the IQR method caught it right away.
+
+### Chapter 7
+
+I learned that feature selection keeps only the features that actually help the prediction, and that filter, wrapper, and embedded methods each choose in a different way. I understood that the filter method scores features, RFECV removes them one by one, and LassoCV shrinks weak ones to zero. What surprised me was that the three methods gave three different answers on the same data. RFECV kept only one feature, which showed me that the result depends on the method and on how small the dataset is.
+
+### Chapter 8
+
+I learned that a pipeline connects the preprocessing steps in order, like a conveyor belt, so the data goes in raw and comes out ready for the model. I understood that imputation and scaling can be placed in one pipeline, and that ColumnTransformer decides which columns the pipeline works on. What surprised me was how much shorter and cleaner the process was compared to doing every step by hand, and that the same pipeline can be reused on new data.
+
+### Chapter 9
+
+I learned how to put everything together on a real dataset, the Titanic data, by handling the numerical and categorical columns separately and then combining them with ColumnTransformer. I understood that discretizing Age into Child, Adult, and Elderly and then plotting the results is how we check whether the preprocessing really worked. What surprised me was that the plots made the data easier to understand than the numbers did, and that checking the result after preprocessing can show problems that need to be fixed before modeling.
+
 ## Errors we found
 
 List any mistake you found in the original notebooks, and the correct version.
