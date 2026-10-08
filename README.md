@@ -46,7 +46,9 @@ I learned that outliers are values that are very different from most of the data
 
 ### Chapter 7
 
+I learned that choosing the right features is important because not all information in a dataset contributes equally to the result. I understood that correlation can help identify relationships between variables, while different feature selection methods can determine which information is more useful for prediction. What surprised me was that even when several variables are related to the final result, some can still be considered less important when the features are evaluated together.
 
+### Chapter 8
 
 ## Errors we found
 
