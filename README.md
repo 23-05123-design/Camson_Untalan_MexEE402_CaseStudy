@@ -40,6 +40,14 @@ I learned that feature engineering can make existing data more useful by creatin
 
 I learned that scaling and normalization are important when different features have very different numerical ranges. I understood that scaling can prevent a feature with larger values from having too much influence on a model. What surprised me was that scaling does not always mean changing everything to 0–1, since different methods can adjust the data in different ways depending on the algorithm being used.
 
+### Chapter 6
+
+I learned that outliers are values that are very different from most of the data and can affect how the results are interpreted. I understood that methods like Z-score and IQR can help identify these unusual values, while capping, transformation, or removal can be used to handle them. What surprised me was that an outlier should not automatically be deleted because it may still contain useful information.
+
+### Chapter 7
+
+
+
 ## Errors we found
 
 List any mistake you found in the original notebooks, and the correct version.
