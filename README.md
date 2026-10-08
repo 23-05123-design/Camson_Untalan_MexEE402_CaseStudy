@@ -38,7 +38,7 @@ I learned that feature engineering can make existing data more useful by creatin
 
 ### Chapter 5
 
-
+I learned that scaling and normalization are important when different features have very different numerical ranges. I understood that scaling can prevent a feature with larger values from having too much influence on a model. What surprised me was that scaling does not always mean changing everything to 0–1, since different methods can adjust the data in different ways depending on the algorithm being used.
 
 ## Errors we found
 
