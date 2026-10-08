@@ -32,6 +32,13 @@ you and what surprised you. Not what the library does, but what you understood.
 
 I learned that data needs to be properly prepared, understood, and cleaned before it can be used for analysis. I understood that raw data may contain missing values, duplicates, irrelevant information, or unusual values that can affect the results. What surprised me was that even simple checks and summaries can reveal important problems in a dataset, and that handling missing data requires choosing carefully between deletion, imputation, or prediction depending on the situation.
 
+### Chapter 4
+
+I learned that feature engineering can make existing data more useful by creating new information from it. I understood that techniques like binning, interaction features, and encoding help present data in a form that is easier for a model to interpret. What surprised me was that even a simple calculation between two existing values can reveal a different relationship or pattern in the data.
+
+### Chapter 5
+
+
 
 ## Errors we found
 
