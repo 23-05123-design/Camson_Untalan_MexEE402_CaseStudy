@@ -50,6 +50,11 @@ I learned that choosing the right features is important because not all informat
 
 ### Chapter 8
 
+This chapter taught me that preprocessing becomes easier to manage when the different steps are arranged into one continuous process. I realized that missing values and differences in feature scales can be handled together instead of doing each step separately. What surprised me was that the same process can be applied again to new data, which helps keep the results consistent.
+
+### Chapter 9
+
+
 ## Errors we found
 
 List any mistake you found in the original notebooks, and the correct version.
