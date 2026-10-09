@@ -57,8 +57,15 @@ We learned how to put everything together on a real dataset, the Titanic data, b
 
 ## Errors we found
 
-List any mistake you found in the original notebooks, and the correct version.
-There are real ones in there. Finding them earns points.
+- Ch6, #1: The note says 100 is a clear outlier, but the cell above prints Outliers: [].
+- Ch6, #2: The text says “median of halves”, but the output shows IQR = 9.25, which is the interpolated value.
+- Ch7, #3: The text says assignments completed and grades are unrelated, but the printed correlation is 0.9565.
+- Ch7, #4: The printed relevant_features list includes final grade itself, with correlation 1.0.
+- Ch7, #6: The R-squared warnings are printed under the RFECV cell.
+- Ch4, #12 and #13: The text says 1, 2, 3 and Sunny = [1,0,0], but the output shows 0.0, 1.0, 2.0, True/False, and the Weather columns in the order Cloudy, Rainy, Sunny.
+- Ch1_2_3, #14: The FutureWarning is printed under the imputation cell.
+- Ch9, #11: The Step 1 heading says Google Drive, but the code right below it uses files.upload().
+- Ch8, #7 (the dropped columns): You can see it in the code. The ColumnTransformer lists only ['Age', 'Fare'].
 
 ## Note on AI tools
 
